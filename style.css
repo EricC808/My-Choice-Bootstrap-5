@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to bottom, #222, #555);
+    color: white;
+    text-align: center;
+}
+
+.hero-section {
+    background: url('image.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.play-btn {
+    background-color: #c89c3c;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-light {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-warning {
+    border-radius: 5px;
+    padding: 10px 15px;
+}
